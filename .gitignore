@@ -1,0 +1,12 @@
+#npm debugging logs
+npm-debug.log*
+
+#project dependencies
+nodel_modules
+
+#OSX floder attributes
+.DS_Store
+
+#temporary files
+*.tmp
+*~
