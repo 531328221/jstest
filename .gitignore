@@ -2,7 +2,7 @@
 *.log*
 
 #project dependencies
-nodel_modules
+node_modules
 
 #OSX floder attributes
 .DS_Store
