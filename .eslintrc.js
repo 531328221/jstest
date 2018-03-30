@@ -28,7 +28,7 @@ module.exports = {
             "always"
         ],
         "no-console":[
-            1
+            0
         ]
     }
 };

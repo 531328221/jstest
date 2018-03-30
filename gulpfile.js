@@ -12,8 +12,11 @@ gulp.task('default', function(){
 	.pipe(babel())
 	.pipe(gulp.dest("dist"));
 
-	//brower source
-	gulp.src("public/es6/**/*.js")
+	// //brower source
+	// gulp.src("public/es6/**/*.js")
+	// .pipe(babel())
+	// .pipe(gulp.dest("public/dist"));
+	/*gulp.src("es/symbol.js")
 	.pipe(babel())
-	.pipe(gulp.dest("public/dist"));
+	.pipe(gulp.dest("dist"));*/
 });
